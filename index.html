@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e94b34a5c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3 class="nav-title">Where in the world?</h3>
+            <div class="nav__mode">
+                <i class="fa-regular fa-moon" id="dark"></i>
+                <i class="fa-regular fa-sun" id="light"></i>
+                <p class="theme-text">Dark Mode</p>
+            </div>
+        </nav>
+        <div class="filter">
+            <div class="filter__name">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="input-country" placeholder="Search for a country...">
+            </div>
+
+            <div class="filter__region">
+                <select name="" id="select-region">
+                    <option value="">Filter by Region</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Americas">America</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <div class="list">
+    </div>
+
+    <div class="details">
+            <button class="btn-back"><i class="fa-solid fa-arrow-left"></i> Back</button>
+            <div class="country">
+               
+            </div>
+    </div>
+
+
+    <script src="dist/countries.js"></script>
+    <script src="dist/theme.js"></script>
+</body>
+</html>
